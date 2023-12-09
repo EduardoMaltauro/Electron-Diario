@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Coming Soon", cursive;
+}
+
+body {
+    background: #484848;
+    margin: 32px;
+}
+
+h1 {
+    color: #00eaff;
+    font-size: 32pt;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h2 {
+    color: #0062ff;
+    font-size: 18pt;
+}
+
+p {
+    border-left: 4px dashed #0062ff;
+    color: #000;
+    font-size: 16pt;
+    margin-left: 16px;
+    padding-left: 16px;
+    text-align: justify;
+}
+
+textarea {
+    border: 4px dashed #71a2f1;
+    color: #0062ff;
+    display: block;
+    height: 128px;
+    font-size: 14pt;
+    outline: none;
+    resize: vertical;
+    width: 100%;
+}
+
+button {
+    background: #0062ff;
+    border: none;
+    color: #f4f2ec;
+    display: block;
+    font-size: 16pt;
+    font-weight: bold;
+    margin: 16px auto;
+    padding: 4px 16px;
+}
